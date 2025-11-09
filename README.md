@@ -1,6 +1,6 @@
 x029 is an IBM 029 keypunch emulator for X11.
 
-Prerequsites
+Prerequisites
 ------------
 x029 requires X11R5 or later, and the libxaw7-dev package.
 

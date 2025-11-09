@@ -514,7 +514,7 @@ main(int argc, char *argv[])
 	programname = argv[0];
     }
 
-    /* Initialze Xt and fetch our resources. */
+    /* Initialize Xt and fetch our resources. */
     toplevel = XtVaAppInitialize(
 	&appcontext,
 	"X029",
@@ -2183,7 +2183,7 @@ void
 run_fsms(void)
 {
     if (eq_count == 0) {
-	/* The paste FSM has absoulte priority over the auto-play FSM. */
+	/* The paste FSM has absolute priority over the auto-play FSM. */
 	if (paste_fsm_cx.state != DS_READ) {
 	    run_fsm(&paste_fsm_cx);
 	} else if (mode != M_INTERACTIVE) {

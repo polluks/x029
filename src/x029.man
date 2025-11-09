@@ -80,7 +80,7 @@ interpreted as the \fBREL\fP key.
 The \fB-remotectl\fP option also causes \fBx029\fP to read text from standard
 input, but it allows the input to be generated incrementally. The basic
 difference between plain demo and remote-control modes is that a new card is
-fed immedately in remote-control mode, while a card is not fed in demo mode
+fed immediately in remote-control mode, while a card is not fed in demo mode
 until input is available.
 .SH "OPTIONS"
 \fBx029\fP is a toolkit-based program, so it understands standard Xt
